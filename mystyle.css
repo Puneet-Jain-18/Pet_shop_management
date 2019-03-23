@@ -1,0 +1,271 @@
+
+*
+{
+    color:white;
+
+}
+body
+{
+     align-items: center;
+}
+u,#response404
+{
+    color:#0a0444;
+   font-size: 30px;
+   font-weight: bold;
+
+}
+h1{
+    background-color: #022968;
+    color:#ffffff;
+    font-family: 'Times New Roman';
+    font-size:40px;
+    padding:10px;
+    letter-spacing: 5px;
+    margin: -10px -10px 10px -10px;
+    width:100%;
+    height:10%;
+    text-align: center;
+    
+}
+input,textarea{
+    padding :10px;
+    border-radius: 10px;
+    font-size:20px;
+    border:3px solid #ff9000;
+   width: 22%;
+   color: black;
+}
+#head-image
+{
+    width:10%;
+    height:100%;
+}
+button
+{
+    padding:5px 10px 5px 10px;
+    font-size:20px;
+    margin-left: 2%;
+    background-color: #43a334;
+    color:#ffffff;
+    font-weight: bold;
+    border: none;
+   
+    border-radius: 3px;
+}
+#checkbox-text{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+
+}
+#maindiv{
+    border:2px solid black;
+}
+p
+{
+    color:#0a0444;
+    font-size: 20px;
+
+}
+*{
+    font-family: 'Helvetica';
+}
+#checkbox{
+    width:20px;
+}
+img{
+    float:left;
+}
+#details{
+    text-align: center;
+}
+legend{
+    color:#0a0444;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#homepage-button{
+    margin-left:35%;
+    
+}
+#email-form
+{
+    margin-left:10%;
+}
+#warn{
+    color:#40dce7fd;
+    font-weight: bold;
+}
+textarea{
+    height:25%;
+    width: 20%;
+}
+ul{
+    position:sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#EBE3E1;
+    border-radius:22px;
+    font-family: cursive;
+    color: #F26871;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+}
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #F26871;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+td{
+    font-size: 40px;
+    color: black;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color:rgb(238, 208, 201);
+} 
+#logo{
+    margin-top:-10px;
+
+}
+a{
+    text-decoration: none;
+}
+#img_container
+{
+    width:200px;
+    height:200px;
+    border:2px solid red;
+}
+.demopic
+{
+    border:2px solid red;
+    height:100%;
+    width:100%;
+
+
+}
+#details
+{
+    width:100%;
+    font-size:50px;
+}
+#offset
+{
+    visibility: hidden;
+}
+
+#petpic
+{
+    width:50%;
+    height:500px;
+    display: block;
+    float:left;
+    margin-left: 25%;
+    clear: both;
+    border-radius: 23px;
+}
+.rr{
+    font-size: 30px;
+    text-align: center;
+}
+.pet_list
+{
+    float:left;
+    width:50%;
+    margin:20px 0px 20px 0px;
+    font-size: 20px;
+}
+video
+{
+    opacity: .4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries*/
+@media screen and ( max-width : 800px)
+{
+    input{
+        width:46%;
+    }
+    .rr{
+        width: 2px;
+    }
+    #date-input
+    {
+        width:29%;
+    }
+    #email
+    {
+        width:97%;
+    }
+    #pass{
+        width:97%;
+        margin-top:10px;
+    }
+
+    button{
+        margin-top:5px;
+    }
+    img{
+        width:99%;
+        margin-bottom: 10px;
+    }
+    hr{
+        margin-top:-50px;
+    }
+    #homepage-button{
+        margin-top:-40px;
+        margin-left:25%;
+    }
+    #welcome
+    {
+        text-align: center;
+    }
+    #logo{
+        width:50px;
+        margin:5px;
+    }
+}

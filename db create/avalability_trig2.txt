@@ -1,0 +1,14 @@
+delimiter $
+create trigger avalability2
+	after update on cart
+	for each row 	
+	begin
+	if new.final='n' then
+	update pet set avalability='y'
+	where p_id=new.pet_id;
+	
+	update animals set 
+	quantity =quantity+1 where
+	aid=(select aid from pet where p_id=new.pet_id);
+  end if;
+end$
