@@ -2,7 +2,7 @@
 //querying mysql
 $server="localhost";
 $user="root";
-$pass="puneetj18";
+$pass="";
 $db="db_project";
 
 $conn=new mysqli($server,$user,$pass,$db);
