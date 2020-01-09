@@ -8,7 +8,7 @@ if($conn->connect_error)
     die ("Unsucessful");
 }
 echo "Connection made";
-$query=$query="
+$query="
 create trigger avalability2
 	after update on cart
 	for each row 	
